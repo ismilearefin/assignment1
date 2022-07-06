@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* 1st sec start */
+.hero_sec{
+  background-image: url(/images/donation13.jpg);
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero_box{
+  text-align: center;
+  padding: 250px;
+}
+.hero_box h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 65px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+}
+.hero_box p{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 15px;
+  padding: 0px 40px; 
+}
+.hero_box a{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  padding: 20px 35px;
+  background-color: #FF5959;
+  border-radius: 10px;display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+}
+/* 1st sec END */
