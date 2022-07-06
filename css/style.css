@@ -6,7 +6,7 @@
 /* 1st sec start */
 .hero_sec{
   background-image: url("../images/donation13.jpg");
-  min-height: 800px;
+  height: 90vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,15 +21,14 @@
   font-size: 65px;
   font-weight: 800;
   color: white;
-  margin-bottom: 20px;
 }
 .hero_box p{
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: white;
-  margin-bottom: 15px;
   padding: 0px 40px; 
+  margin-top: 10px;
 }
 .hero_box a{
   font-family: 'Inter', sans-serif;
@@ -39,8 +38,9 @@
   padding: 20px 35px;
   background-color: #FF5959;
   border-radius: 10px;display: inline-block;
-  margin-top: 15px;
+  margin-top: 25px;
   text-decoration: none;
+  
 }
 /* 1st sec END */
 
@@ -69,22 +69,22 @@
 /* 2nd */
 
 .second{
+  margin: 50px auto;
   display: flex;
-  text-align: center;
+  align-items: center;
   font-family: 'Inter', sans-serif;
-  width: 100%;
-  font-size: 30px; 
-  margin-top: 50px;
+  width: 80%;
+  justify-content: space-between;
+  font-size: 25px;
 }
+
 .nofocus{
   background-color: #f7f7f7;
   padding: 30px;
   margin: 20px;
   border-radius: 10px;
 }
-#nofocus_margin{
-  margin-left: 100px;
-}
+
 .focus{
   background-color: #ffd7d7;
   margin: 20px;
@@ -229,9 +229,11 @@ hr{
 /* 4th sec END */
 /* 5th sec start */
 .gallery_sec{
-  margin-top: 150px;
-  margin-bottom: 150px;
-  margin-left: 100px;
+height:1475px ;
+}
+.gallery {
+display: flex;
+flex-direction: column;
 }
 .gallery_sec h1{
   font-family: 'Inter', sans-serif;
@@ -240,15 +242,20 @@ hr{
   margin-top: 15px;
   margin-bottom: 50px;
   text-align: center;
-  margin-right: 75px;
   text-transform: uppercase;
 }
 
-.first_gallery img{
-  margin: 2px;
+.first_gallery {
+  padding: 2px;
+  margin: 0 auto;
 }
-.sec_gallery img{
-  margin: 2px;
+.middle{
+  margin: 0 auto;
+  padding: 2px;
+}
+.sec_gallery {
+  padding: 2px;
+  margin: 0 auto;
 }
 /* 5th sec END */
 
