@@ -234,8 +234,10 @@ hr{
   font-size: 60px;
   font-weight: 800;
   margin-top: 15px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   text-align: center;
+  margin-right: 75px;
+  text-transform: uppercase;
 }
 
 .first_gallery img{
@@ -245,3 +247,44 @@ hr{
   margin: 2px;
 }
 /* 5th sec END */
+
+/* 6th sec start */
+.last_sec{
+  text-align: center;
+}
+.last_sec h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+}
+.last_sec p{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.email_box{
+  background-color: #FFF4D6;
+  height: 200px;
+  margin: 20px 200px 50px 200px;
+}
+.button_box button{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  padding: 6px 40px;
+  float: left;
+  margin-top: 80px;
+  background-color: #FF5959;
+}
+.input_box {
+  padding: 10px 120px;
+  margin-top: 80px;
+  width: 300px;
+  float: left;
+  margin-left: 280px;
+}
+/* 6th sec END */
