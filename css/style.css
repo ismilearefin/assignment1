@@ -87,6 +87,7 @@
   margin: 20px;
   padding: 30px;
   border-radius: 10px;
+  border: #FF5959 solid 3px;
 }
 .focus h1{
   color: #FF5959;
@@ -251,6 +252,7 @@ hr{
 /* 6th sec start */
 .last_sec{
   text-align: center;
+  margin-bottom: 100px;
 }
 .last_sec h1{
   font-family: 'Inter', sans-serif;
@@ -288,3 +290,22 @@ hr{
   margin-left: 280px;
 }
 /* 6th sec END */
+
+/* footer sec start */
+.footer{
+  height: 150px;
+  background-color: black;
+  text-align: center;
+}
+.footer h1{
+  color: #FF5959;
+  font-size: 36px;
+  font-family: 'Lobster', cursive;
+  display: inline-block;
+  margin-top: 45px;
+}
+.footer p{
+  color: white;
+  font-size: 14px;
+}
+/* footer sec END */
