@@ -7,6 +7,7 @@
 .hero_sec{
   background-image: url("../images/donation13.jpg");
   min-height: 800px;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,10 +67,12 @@
 }
 
 /* 2nd */
+
 .second{
   display: flex;
   text-align: center;
   font-family: 'Inter', sans-serif;
+  width: 100%;
   font-size: 30px; 
   margin-top: 50px;
 }
